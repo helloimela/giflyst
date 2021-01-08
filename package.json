@@ -5,6 +5,10 @@
     "lerna": "^3.22.1",
     "lerna-changelog": "^1.0.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helloimela/giflyst.git"
+  },
   "scripts": {
     "install": "lerna bootstrap",
     "start": "lerna run --parallel start",
