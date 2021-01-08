@@ -2,7 +2,7 @@
   "author": "elayudhanira@gmail.com",
   "name": "giflyst-backend",
   "description": "Basic examples of the Spotify authorization flows through OAuth 2",
-  "version": "1.0.1-alpha.0",
+  "version": "1.0.1",
   "scripts": {
     "start": "node app.js"
   },
