@@ -1,0 +1,28 @@
+{
+  "name": "giflyst",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "lerna-changelog": "^1.0.1"
+  },
+  "scripts": {
+    "install": "lerna bootstrap",
+    "start": "lerna run --parallel start",
+    "build": "lerna run build",
+    "changelog": "lerna-changelog",
+    "clean": "lerna clean",
+    "version": "lerna version",
+    "prepublish": "lerna run build",
+    "publish": "lerna publish"
+  },
+  "changelog": {
+    "ignoreCommitters": [
+      "dependabot"
+    ],
+    "labels": {
+      "Feature": ":rocket: New Feature",
+      "Improvement": ":seedling: Improvements",
+      "bug": ":bug: Bug Fix"
+    }
+  }
+}
