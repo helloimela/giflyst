@@ -3,6 +3,9 @@
   "name": "giflyst-backend",
   "description": "Basic examples of the Spotify authorization flows through OAuth 2",
   "version": "1.0.1",
+  "files": [
+    "build"
+  ],
   "scripts": {
     "start": "node app.js"
   },
@@ -13,5 +16,5 @@
     "querystring": "~0.2.0",
     "request": "~2.83.0"
   },
-  "gitHead": "fa7db0c54c9236770253e0ef26da7471661e4ba2"
+  "gitHead": "2d14691bc47d5e82f78b521d04876ab85a832c2a"
 }
