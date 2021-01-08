@@ -29,7 +29,7 @@ export default class GifWrapper extends React.Component {
       case 'danceability': return finalKey = 'dancing';
       case 'acousticness': return finalKey = 'cozy';
       case 'energy': return finalKey = 'workout';
-      case 'instrumentalness': return finalKey = 'piano';
+      case 'instrumentalness': return finalKey = 'orchestra';
       case 'liveness': return finalKey = 'concert';
       case 'valence': return finalKey = 'yeay';
       default: finalKey='music'
