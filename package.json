@@ -16,7 +16,6 @@
     "build": "lerna run build",
     "changelog": "lerna-changelog",
     "clean": "lerna clean",
-    "version": "lerna version",
     "prepublish": "lerna run build",
     "release": "lerna publish"
   },
